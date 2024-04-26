@@ -1,0 +1,19 @@
+# Author -- meevs
+# Creation Date -- 2023-07-03
+# File Name -- compose.yaml
+# Notes --
+
+version: "2.4"
+services:
+  steamcmd:
+    image: "mbox/steamcmd"
+    build:
+      context: ./
+      target: "steamcmd-base"
+
+#  steamcmd-wine:
+#    image: "mbox/steamcmd-wine"
+#    build:
+#      context: ./
+#      target: "steamcmd-wine"
+#  
