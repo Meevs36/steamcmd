@@ -168,3 +168,7 @@ function install_mods () {
 		echo ""
 	fi	
 }
+
+echo ""
+echo "MBox Steam Workshop Helper Functions loaded"
+echo ""
